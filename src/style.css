@@ -1,1 +1,57 @@
-/* add styles here */
+/* #region Body */
+.body {
+  margin: 0;
+  background-color: lightgray;
+
+}
+
+/* #endregion */
+
+
+
+/* #region sec__container */
+.main__container {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+/* #endregion */
+
+
+/* #region sec__container */
+.sec__container {
+  display: flex;
+  background-color: white;
+  width: 140px;
+  height: 155px;
+  justify-content: center;
+  align-items: center;
+}
+
+/* #endregion */
+
+
+
+/* #region stars */
+.stars {
+  display: flex;
+  flex-direction: column;
+}
+
+/* #endregion */
+
+
+
+/* #region stars__star */
+.stars__star {
+  display: flex;
+  background-image: url("images/star-active.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  min-width: 17px;
+  min-height: 15px;
+}
+
+/* #endregion */
